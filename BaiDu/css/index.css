@@ -1,0 +1,88 @@
+.head {
+    margin-top: 20px;
+    text-align: right;
+}
+.head a {
+    margin: 0 7px;
+    font-size: 13px;
+    color: #000000;
+    font-weight: bold;
+}
+#user {
+    font-weight: normal;
+}
+.head button {
+    width: 70px;
+    right: 10px;
+    height: 23px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+}
+.my_baidu {
+    margin-top: 30px; 
+    /* 设置上外边距 */
+    text-align: center; 
+    /* 规定元素中文本水平对齐方向 */
+    overflow: hidden;
+}
+img {
+    width: 270px;
+    /* 定义logo图片的宽度，因为CSS里是等比例放大缩小，所以只需要定义一个就可以。 */
+}
+form {
+    margin-top: 25px;
+} 
+input {
+    width: 520px;
+    /* 定义input的宽度 */
+    height: 32px;
+    /* 定义input的高度 */
+    font-size: 16px;
+    /* input内的字体大小定义 */
+    line-height: 36px;
+    /* 设置行高 */
+    padding: 1;
+    /* 设置input的内边距 */
+    outline: 0;
+    /* 设置边框样式及颜色 */
+    border: 1px solid #999; 
+    /*设置边框宽度为1px,实线，灰色*/
+}
+button {
+    width: 100px;
+    height: 36px;
+    color: #ffffff;
+    /* 设置button字体颜色 */
+    font-size: 16px;
+    /* 设置button内字体大小 */
+    letter-spacing: 1px;
+    /* 设置字符间距 */
+    background:#3385ff;
+    /* 设置button背景颜色 */
+    border: 0px;
+    /* 设置边框属相 */
+    vertical-align: bottom 
+    /*设置元素垂直对齐方式，input与button对齐*/
+}
+.about {
+    margin-top: 310px;
+}
+.about a {
+    font: 12px arial;
+    color: #999;
+    text-align: center;
+    margin: 0 5px;
+    letter-spacing: 1px;
+}
+.read {
+    margin-top: 5px;
+}
+.read b {
+    font: 12px arial;
+    color: #999;
+    text-align: center;
+    margin: 0 8px;
+    letter-spacing: 1px;
+}
+
