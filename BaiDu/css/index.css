@@ -33,6 +33,9 @@ img {
 form {
     margin-top: 25px;
 } 
+input:focus{
+    outline-offset: -2px;
+}
 input {
     width: 520px;
     /* 定义input的宽度 */
@@ -42,12 +45,15 @@ input {
     /* input内的字体大小定义 */
     line-height: 36px;
     /* 设置行高 */
-    padding: 1;
+    padding: 0 8px;
     /* 设置input的内边距 */
     outline: 0;
     /* 设置边框样式及颜色 */
     border: 1px solid #999; 
     /*设置边框宽度为1px,实线，灰色*/
+}
+button:hover {
+    border-color: #2868c8
 }
 button {
     width: 100px;
